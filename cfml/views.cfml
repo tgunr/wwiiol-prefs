@@ -61,9 +61,6 @@
 		<joybutton stick="1">21</joybutton>
 		<key index="1"></key>
 	</control>
-	<control function="Toggle Free Look">
-		<key index="1"></key>
-	</control>
 	<control function="Mouse Look Y">
 		<mouseaxis>y</mouseaxis>
 	</control>
