@@ -11,10 +11,7 @@
 		<key index="1"></key>
 	</control>
 	<control function="Sprint">
-		<combo index="1">
-			<key>left shift</key>
-			<joybutton stick="3">1</joybutton>
-		</combo>
+		<joybutton stick="3" index="1">1</joybutton>
 	</control>
 	<control function="Crouch">
 		<joybutton stick="3" index="1">5</joybutton>
@@ -45,10 +42,10 @@
 	</control>
 	<control function="Gunsight\Alt Deploy">
 		<key>x</key>
-		<mousebutton index="1">2</mousebutton>
+		<joybutton stick="3" index="1">6</joybutton>
 	</control>
 	<control function="Select Next Weapon">
-		<mousebutton index="1">3</mousebutton>
+		<key index="1"></key>
 	</control>
 	<control function="Select Previous Weapon">
 		<key index="1"></key>
