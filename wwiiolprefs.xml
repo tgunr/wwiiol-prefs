@@ -34,7 +34,7 @@
   <value name="app.showreadout" type="bool" value="true"/>
   <value name="app.sound" type="string" value="undefined"/>
   <value name="app.squadinvites" type="bool" value="false"/>
-  <value name="app.suppressmuzzlelight" type="bool" value="true"/>
+  <value name="app.suppressmuzzlelight" type="bool" value="false"/>
   <value name="app.usenetworkroute" type="long" value="0"/>
   <value name="app.version" type="long" value="12"/>
   <value name="app.video" type="string" value="1"/>
