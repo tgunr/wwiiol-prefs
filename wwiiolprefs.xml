@@ -15,10 +15,10 @@
   <value name="app.fsaasamples" type="long" value="0"/>
   <value name="app.grassshader" type="bool" value="false"/>
   <value name="app.hudvisible" type="long" value="2"/>
-  <value name="app.iconmode" type="long" value="0"/>
+  <value name="app.iconmode" type="long" value="1"/>
   <value name="app.inflodmod" type="float" value="4.000000"/>
   <value name="app.language" type="long" value="0"/>
-  <value name="app.loadtime" type="long" value="18936"/>
+  <value name="app.loadtime" type="long" value="7391"/>
   <value name="app.macsound" type="long" value="0"/>
   <value name="app.musicmultiplier" type="float" value="0.000000"/>
   <value name="app.postrenderfilter" type="bool" value="false"/>
@@ -31,7 +31,7 @@
   <value name="app.shadowreceivers" type="long" value="37"/>
   <value name="app.shadows" type="long" value="0"/>
   <value name="app.shadowsizeselect" type="long" value="0"/>
-  <value name="app.showreadout" type="bool" value="true"/>
+  <value name="app.showreadout" type="bool" value="false"/>
   <value name="app.sound" type="string" value="undefined"/>
   <value name="app.squadinvites" type="bool" value="false"/>
   <value name="app.suppressmuzzlelight" type="bool" value="false"/>
@@ -45,13 +45,14 @@
   <value name="convergence.12865" type="long" value="500"/>
   <value name="convergence.12869" type="long" value="500"/>
   <value name="convergence.16929" type="long" value="500"/>
+  <value name="convergence.16964" type="long" value="500"/>
   <value name="convergence.16965" type="long" value="500"/>
   <value name="convergence.4679" type="long" value="500"/>
   <value name="convergence.4681" type="long" value="500"/>
   <value name="hud.alerts.show" type="bool" value="true"/>
   <value name="hud.alerts.textmode" type="long" value="0"/>
   <value name="hud.minimap.mode" type="long" value="0"/>
-  <value name="hud.minimap.scale" type="float" value="0.816946"/>
+  <value name="hud.minimap.scale" type="float" value="0.214158"/>
   <value name="input.presets.0" type="long" value="0"/>
   <value name="input.presets.3" type="long" value="0"/>
   <value name="quickhelp-brigade" type="bool" value="true"/>
@@ -59,6 +60,7 @@
   <value name="quickhelp-manuals" type="bool" value="true"/>
   <value name="quickhelp-map" type="bool" value="true"/>
   <value name="quickhelp-mission" type="bool" value="true"/>
+  <value name="quickhelp-offline" type="bool" value="true"/>
   <value name="quickhelp-persona" type="bool" value="true"/>
   <value name="quickhelp-squad" type="bool" value="true"/>
   <value name="ui.map.radar" type="bool" value="true"/>
@@ -66,22 +68,22 @@
   <value name="view.binfo.x" type="float" value="875.766724"/>
   <value name="view.binfo.y" type="float" value="52.760002"/>
   <value name="view.chat.visible" type="bool" value="true"/>
-  <value name="view.chat.x" type="float" value="218.399994"/>
-  <value name="view.chat.y" type="float" value="4.480000"/>
+  <value name="view.chat.x" type="float" value="212.000000"/>
+  <value name="view.chat.y" type="float" value="4.800000"/>
   <value name="view.cinfo.visible" type="bool" value="true"/>
   <value name="view.cinfo.x" type="float" value="875.766724"/>
   <value name="view.cinfo.y" type="float" value="2.880000"/>
   <value name="view.current-orders.visible" type="bool" value="true"/>
-  <value name="view.current-orders.x" type="float" value="512.000244"/>
-  <value name="view.current-orders.y" type="float" value="748.000000"/>
+  <value name="view.current-orders.x" type="float" value="512.000000"/>
+  <value name="view.current-orders.y" type="float" value="755.120056"/>
   <value name="view.game-alerts.visible" type="bool" value="true"/>
   <value name="view.game-alerts.x" type="float" value="362.000000"/>
   <value name="view.game-alerts.y" type="float" value="575.666687"/>
-  <value name="view.gameinfo.height" type="float" value="40.000000"/>
-  <value name="view.gameinfo.visible" type="bool" value="true"/>
-  <value name="view.gameinfo.width" type="float" value="83.333328"/>
-  <value name="view.gameinfo.x" type="float" value="938.266724"/>
-  <value name="view.gameinfo.y" type="float" value="364.000000"/>
+  <value name="view.gameinfo.height" type="float" value="45.440002"/>
+  <value name="view.gameinfo.visible" type="bool" value="false"/>
+  <value name="view.gameinfo.width" type="float" value="73.066666"/>
+  <value name="view.gameinfo.x" type="float" value="948.533325"/>
+  <value name="view.gameinfo.y" type="float" value="361.280029"/>
   <value name="view.kenny.visible" type="bool" value="true"/>
   <value name="view.kenny.x" type="float" value="875.766724"/>
   <value name="view.kenny.y" type="float" value="600.119995"/>
@@ -91,11 +93,11 @@
   <value name="view.primary.visible" type="bool" value="true"/>
   <value name="view.primary.x" type="float" value="2.400000"/>
   <value name="view.primary.y" type="float" value="52.760002"/>
-  <value name="view.readout.height" type="float" value="20.000000"/>
+  <value name="view.readout.height" type="float" value="45.440002"/>
   <value name="view.readout.visible" type="bool" value="true"/>
-  <value name="view.readout.width" type="float" value="62.500000"/>
+  <value name="view.readout.width" type="float" value="217.466675"/>
   <value name="view.readout.x" type="float" value="2.000000"/>
-  <value name="view.readout.y" type="float" value="745.600037"/>
+  <value name="view.readout.y" type="float" value="720.160034"/>
   <value name="view.secondary.visible" type="bool" value="true"/>
   <value name="view.secondary.x" type="float" value="2.400000"/>
   <value name="view.secondary.y" type="float" value="102.639999"/>
