@@ -1,162 +1,81 @@
-<controlset version = "1.0.0" keyboard = "us" language = "english" >
-	<control>
-		<function>turret traverse</function>
-		<joyaxis stick="1">x</joyaxis>
-	</control>	
-	<control>
-		<function>turret elevate</function>
-		<joyaxis stick="1" invert="1">y</joyaxis>
-	</control>	
-	<control>
-		<function>deploy weapon</function>
-		<key>z</key>
+<?xml version='1.0'?>
+<!DOCTYPE controlset SYSTEM "cfml.dtd">
+<controlset version="1.1.0" language="english" keyboard="us">
+	<control function="Shift up">
+		<joybutton stick="1" index="1">19</joybutton>
 	</control>
-	<control>
-		<function>instrument view</function>
-		<key>numpad 0</key>
+	<control function="Shift down">
+		<joybutton stick="1" index="1">21</joybutton>
 	</control>
-	<control>
-		<function>gunsight view</function>
-		<key>numpad .</key>
+	<control function="Instrument view">
+		<joybutton stick="1" index="1">3</joybutton>
 	</control>
-	<control>
-		<function>cycle ammo</function>
-		<key>backspace</key>
+	<control function="Gunsight view">
+		<joybutton stick="1" index="1">2</joybutton>
 	</control>
-	<control>
-		<function>use primary weapon</function>
+	<control function="Use primary weapon">
 		<joybutton stick="1">1</joybutton>
+		<key index="1"></key>
 	</control>
-	<control>
-		<function>use secondary weapon</function>
-		<joybutton stick="1">2</joybutton>
-	</control>	
-	<control>
-		<function>position 1</function>
-		<key>1</key>
-	</control>			
-	<control>
-		<function>position 2</function>
-		<key>2</key>
-	</control>	
-	<control>
-		<function>position 3</function>
-		<key>3</key>
-	</control>	
-	<control>
-		<function>position 4</function>
-		<key>4</key>
-	</control>	
-	<control>
-		<function>position 5</function>
-		<key>5</key>
-	</control>	
-	<control>
-		<function>position 6</function>
-		<key>6</key>
-	</control>	
-	<control>
-		<function>position 7</function>
-		<key>7</key>
-	</control>	
-	<control>
-		<function>position 8</function>
-		<key>8</key>
-	</control>	
-	<control>
-		<function>position 9</function>
-		<key>9</key>
-	</control>	
-	<control>
-		<function>position 10</function>
-		<key>0</key>
+	<control function="Use secondary weapon">
+		<joybutton stick="1">8</joybutton>
+		<key index="1"></key>
 	</control>
-	<control>
-		<function>engine start/stop</function>
-		<key>e</key>
-	</control>	
-	<control>
-		<function>gas</function>
-		<joyaxis stick="1" halfaxis="+">y</joyaxis>
+	<control function="Gunsight Range Decrease">
+		<joybutton stick="1" index="1">17</joybutton>
 	</control>
-	<control>
-		<function>reverse</function>
-		<key>r</key>
+	<control function="Gunsight Range Increase">
+		<joybutton stick="1" index="1">15</joybutton>
 	</control>
-	<control>
-		<function>steering</function>
+	<control function="Position 1">
+		<joybutton stick="1" index="1">15</joybutton>
+	</control>
+	<control function="Position 2">
+		<joybutton stick="1" index="1">16</joybutton>
+	</control>
+	<control function="Position 3">
+		<joybutton stick="1" index="1">17</joybutton>
+	</control>
+	<control function="Position 4">
+		<key index="1"></key>
+	</control>
+	<control function="Position 5">
+		<key index="1"></key>
+	</control>
+	<control function="Position 6">
+		<joybutton stick="1" index="1">18</joybutton>
+	</control>
+	<control function="Position 7">
+		<combo index="1">
+			<joybutton stick="1">POV1w</joybutton>
+			<joybutton stick="2">POV1w</joybutton>
+		</combo>
+	</control>
+	<control function="Position 8">
+		<combo index="1">
+			<joybutton stick="1">POV1e</joybutton>
+			<joybutton stick="2">POV1e</joybutton>
+		</combo>
+	</control>
+	<control function="Position 9">
+		<joybutton stick="3" index="1">9</joybutton>
+	</control>
+	<control function="Position 10">
+		<joybutton stick="3" index="1">10</joybutton>
+	</control>
+	<control function="Gas">
+		<joyaxis stick="1">rx</joyaxis>
+	</control>
+	<control function="Steering">
+		<joyaxis stick="1">rz</joyaxis>
+	</control>
+	<control function="Turret traverse">
 		<joyaxis stick="1">x</joyaxis>
+		<keyabsolute value="0.00" onrelease="50.00">
+			<key>d</key>
+		</keyabsolute>
 	</control>
-		<control>
-		<function>shift up</function>
-		<key>]</key>
-	</control>
-	<control>
-		<function>shift down</function>
-		<key>[</key>
-	</control>
-	<control>
-		<function>gunsight range decrease</function>
-		<key>page down</key>
-	</control>
-	<control>
-		<function>gunsight range increase</function>
-		<key>page up</key>
-	</control>	
-	<control>
-		<function>target speed increase</function>
-		<key>home</key>
-	</control>
-	<control>
-		<function>target speed decrease</function>
-		<key>end</key>
-	</control>
-	<control>
-		<function>target angle on bow increase</function>
-		<key>insert</key>
-	</control>
-	<control>
-		<function>target angle on bow decrease</function>
-		<key>delete</key>
-	</control>
-	<control>
-		<function>mark target bearing</function>
-		<key>t</key>
-	</control>
-	<control>
-		<function>torpedo run depth increase</function>
-		<key>up arrow</key>
-	</control>
-	<control>
-		<function>torpedo run depth decrease</function>
-		<key>down arrow</key>
-	</control>	
-	<control>
-		<function>calculate target solution</function>
-		<key>u</key>
-	</control>
-	<control>
-		<function>canopy control</function>
-		<key>o</key>
-	</control>
-	<control>
-		<function>hatch control</function>
-		<key>h</key>
-	</control>
-	<control>
-		<function>determine range</function>
-		<key>g</key>
-	</control>
-	<control>
-		<function>airburst increase</function>
-		<key>i</key>
-	</control>	
-	<control>
-		<function>airburst decrease</function>
-		<key>k</key>
-	</control>		
-	<control>
-		<function>winch</function>
-		<joyaxis stick="1">z</joyaxis>
+	<control function="Turret elevate">
+		<joyaxis stick="1" invert="1">y</joyaxis>
 	</control>
 </controlset>

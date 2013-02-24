@@ -12,13 +12,13 @@
   <value name="app.corpsetime" type="float" value="0.200000"/>
   <value name="app.enableh2oshaders" type="bool" value="false"/>
   <value name="app.fontsize" type="long" value="11"/>
-  <value name="app.fsaasamples" type="long" value="4"/>
+  <value name="app.fsaasamples" type="long" value="8"/>
   <value name="app.grassshader" type="bool" value="false"/>
   <value name="app.hudvisible" type="long" value="2"/>
   <value name="app.iconmode" type="long" value="0"/>
   <value name="app.inflodmod" type="float" value="4.000000"/>
   <value name="app.language" type="long" value="0"/>
-  <value name="app.loadtime" type="long" value="34334"/>
+  <value name="app.loadtime" type="long" value="30861"/>
   <value name="app.macsound" type="long" value="0"/>
   <value name="app.musicmultiplier" type="float" value="0.000000"/>
   <value name="app.postrenderfilter" type="bool" value="false"/>
@@ -63,7 +63,6 @@
   <value name="quickhelp-manuals" type="bool" value="true"/>
   <value name="quickhelp-map" type="bool" value="true"/>
   <value name="quickhelp-mission" type="bool" value="true"/>
-  <value name="quickhelp-offline" type="bool" value="true"/>
   <value name="quickhelp-persona" type="bool" value="true"/>
   <value name="quickhelp-squad" type="bool" value="true"/>
   <scalar name="scaleMap.0" type="double" value="-0.000000"/>
