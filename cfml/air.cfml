@@ -95,16 +95,7 @@
 		</keydelta>
 	</control>
 	<control function="Flap control">
-	  <joyaxis stick="1">rx</joyaxis>
-	  <keyabsolute value="0.00" onrelease="0.00">
-		<joybutton stick="1">11</joybutton>
-	  </keyabsolute>
-	  <keyabsolute value="15.00" onrelease="15.00" index="2">
-		<joybutton stick="1">10</joybutton>
-	  </keyabsolute>
-	  <keyabsolute value="30.00" onrelease="30.00" index="3">
-		<joybutton stick="1">9</joybutton>
-	  </keyabsolute>
+		<joyaxis stick="1">rx</joyaxis>
 	</control>
 	<control function="Turret traverse">
 		<joyaxis stick="1">x</joyaxis>
