@@ -4,17 +4,14 @@
 	<control function="Canopy control">
 		<joybutton stick="1" index="1">3</joybutton>
 	</control>
-	<control function="Engine Start/Stop">
-		<joybutton stick="1" index="1">8</joybutton>
-	</control>
 	<control function="Shift up">
-		<joybutton stick="1" index="1">5</joybutton>
+		<joybutton stick="1" index="1">19</joybutton>
 	</control>
 	<control function="Shift down">
-		<joybutton stick="1" index="1">6</joybutton>
+		<joybutton stick="1" index="1">21</joybutton>
 	</control>
 	<control function="Reverse">
-		<joybutton stick="1" index="1">7</joybutton>
+		<joybutton stick="1" index="1">6</joybutton>
 	</control>
 	<control function="Instrument view">
 		<key>0</key>
@@ -32,7 +29,7 @@
 		<joybutton stick="1">8</joybutton>
 	</control>
 	<control function="Gas">
-		<joyaxis stick="1">z</joyaxis>
+		<joyaxis stick="1" invert="1">slider1</joyaxis>
 	</control>
 	<control function="Left brake">
 		<joyaxis stick="0"></joyaxis>
@@ -41,10 +38,10 @@
 		<joyaxis stick="0"></joyaxis>
 	</control>
 	<control function="Center brake">
-		<joyaxis stick="1">rx</joyaxis>
+		<joyaxis stick="1" invert="1">y</joyaxis>
 	</control>
 	<control function="Steering">
-		<joyaxis stick="1">x</joyaxis>
+		<joyaxis stick="1">rz</joyaxis>
 	</control>
 	<control function="Turret traverse">
 		<joyaxis stick="1">x</joyaxis>

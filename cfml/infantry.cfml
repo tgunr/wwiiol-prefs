@@ -2,11 +2,9 @@
 <!DOCTYPE controlset SYSTEM "cfml.dtd">
 <controlset version="1.1.0" language="english" keyboard="us">
 	<control function="Gunsight Range Decrease">
-		<key>down arrow</key>
 		<key index="1"></key>
 	</control>
 	<control function="Gunsight Range Increase">
-		<key>up arrow</key>
 		<key index="1"></key>
 	</control>
 	<control function="Toggle Free Look">
@@ -50,7 +48,7 @@
 		<mousebutton index="1">2</mousebutton>
 	</control>
 	<control function="Select Next Weapon">
-		<key index="1"></key>
+		<mousebutton index="1">3</mousebutton>
 	</control>
 	<control function="Select Previous Weapon">
 		<key index="1"></key>

@@ -1,9 +1,6 @@
 <?xml version='1.0'?>
 <!DOCTYPE controlset SYSTEM "cfml.dtd">
 <controlset version="1.1.0" language="english" keyboard="us">
-	<control function="Hatch control">
-		<key index="1"></key>
-	</control>
 	<control function="Canopy control">
 		<joybutton stick="1" index="1">3</joybutton>
 	</control>
@@ -12,7 +9,7 @@
 		<key index="1"></key>
 	</control>
 	<control function="Deploy weapon">
-		<key index="1"></key>
+		<joybutton stick="1" index="1">6</joybutton>
 	</control>
 	<control function="Shift up">
 		<joybutton stick="1" index="1">19</joybutton>
@@ -21,7 +18,7 @@
 		<joybutton stick="1" index="1">21</joybutton>
 	</control>
 	<control function="Reverse">
-		<joybutton stick="1" index="1">6</joybutton>
+		<key index="1"></key>
 	</control>
 	<control function="Instrument view">
 		<key>,</key>
@@ -38,18 +35,16 @@
 		<key index="1"></key>
 	</control>
 	<control function="Use primary weapon">
-		<key>f</key>
-		<joybutton stick="1" index="1">1</joybutton>
+		<joybutton stick="1">1</joybutton>
 	</control>
 	<control function="Use secondary weapon">
-		<key>v</key>
-		<joybutton stick="1" index="1">4</joybutton>
+		<joybutton stick="1">4</joybutton>
 	</control>
 	<control function="Gunsight Range Decrease">
-		<joybutton stick="1" index="1">3</joybutton>
+		<key index="1"></key>
 	</control>
 	<control function="Gunsight Range Increase">
-		<joybutton stick="1" index="1">5</joybutton>
+		<key index="1"></key>
 	</control>
 	<control function="Position 1">
 		<joybutton stick="1" index="1">15</joybutton>
@@ -58,15 +53,19 @@
 		<joybutton stick="1" index="1">16</joybutton>
 	</control>
 	<control function="Position 3">
-		<joybutton stick="1" index="1">18</joybutton>
+		<joybutton stick="1" index="1">17</joybutton>
 	</control>
 	<control function="Position 4">
-		<joybutton stick="1" index="1">17</joybutton>
+		<joybutton stick="1" index="1">18</joybutton>
 	</control>
 	<control function="Gas">
 		<joyaxis stick="1" invert="1">slider1</joyaxis>
 	</control>
+	<control function="Steering">
+		<joyaxis stick="1">x</joyaxis>
+	</control>
 	<control function="Turret traverse">
+		<joyaxis stick="1">x</joyaxis>
 		<mouseaxis index="1">x</mouseaxis>
 		<keyabsolute value="0.00" onrelease="50.00">
 			<key>a</key>
@@ -90,6 +89,7 @@
 		</keyabsolute>
 	</control>
 	<control function="Turret elevate">
+		<joyaxis stick="1" invert="1">y</joyaxis>
 		<mouseaxis index="1" invert="1">y</mouseaxis>
 		<keyabsolute value="0.00" onrelease="50.00">
 			<key>s</key>
@@ -113,6 +113,7 @@
 		</keyabsolute>
 	</control>
 	<control function="Hull Gun Traverse">
+		<joyaxis stick="1">x</joyaxis>
 		<keyabsolute value="0.00" onrelease="50.00">
 			<key>a</key>
 		</keyabsolute>
@@ -121,6 +122,7 @@
 		</keyabsolute>
 	</control>
 	<control function="Hull Gun Elevate">
+		<joyaxis stick="1">y</joyaxis>
 		<keyabsolute value="0.00" onrelease="50.00">
 			<key>s</key>
 		</keyabsolute>

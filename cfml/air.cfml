@@ -2,19 +2,18 @@
 <!DOCTYPE controlset SYSTEM "cfml.dtd">
 <controlset version="1.1.0" language="english" keyboard="us">
 	<control function="Gear handle">
-		<key index="1"></key>
+		<joybutton stick="1" index="1">6</joybutton>
 	</control>
 	<control function="Deploy dive brakes">
-		<joybutton stick="1" index="1">5</joybutton>
+		<joybutton stick="1" index="1">6</joybutton>
 	</control>
 	<control function="Deploy weapon">
 		<key index="1"></key>
 	</control>
 	<control function="Toggle wep">
-		<key index="1"></key>
+		<joybutton stick="3" index="1">9</joybutton>
 	</control>
 	<control function="Autopilot">
-		<key>a</key>
 		<key index="1"></key>
 	</control>
 	<control function="Instrument view">
@@ -36,23 +35,16 @@
 		<joybutton stick="1">4</joybutton>
 		<key index="1"></key>
 	</control>
-	<control function="Jettison Ordnance">
-		<key>j</key>
-	</control>
 	<control function="Bombsight Speed Decrease">
-		<key>down arrow</key>
 		<key index="1"></key>
 	</control>
 	<control function="Bombsight Speed Increase">
-		<key>up arrow</key>
 		<key index="1"></key>
 	</control>
 	<control function="Bombsight Alt Decrease">
-		<key>left arrow</key>
 		<key index="1"></key>
 	</control>
 	<control function="Bombsight Alt Increase">
-		<key>right arrow</key>
 		<key index="1"></key>
 	</control>
 	<control function="Position 1">
@@ -86,31 +78,24 @@
 		</keyabsolute>
 	</control>
 	<control function="Yaw">
-		<joyaxis stick="1">rz</joyaxis>
 		<keyabsolute value="0.00">
-			<key></key>
+			<key>a</key>
 		</keyabsolute>
-		<keyabsolute value="0.00" index="10">
-			<key></key>
+		<keyabsolute value="100.00" index="10">
+			<key>d</key>
 		</keyabsolute>
 	</control>
 	<control function="Throttle">
 		<joyaxis stick="1" invert="1">slider1</joyaxis>
-		<keydelta value="0.00" per="sec" index="2">
-			<key></key>
+		<keydelta value="10.00" per="sec" index="2">
+			<key>]</key>
 		</keydelta>
-		<keydelta value="0.00" per="sec" index="3">
-			<key></key>
+		<keydelta value="-10.00" per="sec" index="3">
+			<key>[</key>
 		</keydelta>
 	</control>
 	<control function="Flap control">
 		<joyaxis stick="1">rx</joyaxis>
-		<keyabsolute value="0.00">
-			<key>[</key>
-		</keyabsolute>
-		<keyabsolute value="100.00" index="10">
-			<key>]</key>
-		</keyabsolute>
 	</control>
 	<control function="Turret traverse">
 		<joyaxis stick="1">x</joyaxis>
@@ -121,46 +106,37 @@
 	<control function="Elevator trim">
 		<joyaxis stick="0"></joyaxis>
 		<keydelta value="1.00" per="keypress">
-			<joybutton stick="1">19</joybutton>
+			<key>numpad 2</key>
 		</keydelta>
 		<keydelta value="-1.00" per="keypress" index="1">
-			<joybutton stick="1">21</joybutton>
+			<key>numpad 8</key>
 		</keydelta>
 	</control>
 	<control function="Aileron trim">
-		<joyaxis stick="0"></joyaxis>
+		<joyaxis stick="1">x</joyaxis>
 		<keydelta value="1.00" per="keypress">
-			<joybutton stick="1">20</joybutton>
+			<key>numpad 6</key>
 		</keydelta>
 		<keydelta value="-1.00" per="keypress" index="1">
-			<joybutton stick="1">22</joybutton>
+			<key>numpad 4</key>
 		</keydelta>
 	</control>
 	<control function="Rudder trim">
-		<joyaxis stick="0"></joyaxis>
+		<joyaxis stick="1">rz</joyaxis>
 		<keydelta value="1.00" per="keypress">
-			<joybutton stick="1">6</joybutton>
-			<joybutton stick="1">20</joybutton>
+			<key>numpad 3</key>
 		</keydelta>
 		<keydelta value="-1.00" per="keypress" index="1">
-			<joybutton stick="1">6</joybutton>
-			<joybutton stick="1">22</joybutton>
+			<key>numpad 1</key>
 		</keydelta>
 	</control>
 	<control function="Stuka siren">
-		<key>caps lock</key>
 		<joybutton stick="1" index="1">5</joybutton>
 	</control>
 	<control function="Adjust prop up">
-		<combo index="1">
-			<joybutton stick="1">6</joybutton>
-			<joybutton stick="1">19</joybutton>
-		</combo>
+		<joybutton stick="3" index="1">5</joybutton>
 	</control>
 	<control function="Adjust prop down">
-		<combo index="1">
-			<joybutton stick="1">6</joybutton>
-			<joybutton stick="1">21</joybutton>
-		</combo>
+		<joybutton stick="3" index="1">10</joybutton>
 	</control>
 </controlset>
