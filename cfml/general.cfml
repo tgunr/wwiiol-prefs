@@ -4,7 +4,7 @@
 	<control function="Toggle internal/external views">
 		<combo>
 			<key>left control</key>
-			<key>v</key>
+			<key>x</key>
 		</combo>
 	</control>
 	<control function="External locked">
@@ -37,6 +37,12 @@
 	<control function="Slew view down">
 		<key>end</key>
 	</control>
+	<control function="Slew view in">
+		<key>insert</key>
+	</control>
+	<control function="Slew view out">
+		<key>page up</key>
+	</control>
 	<control function="Set fixed camera">
 		<combo>
 			<key>left control</key>
@@ -45,12 +51,6 @@
 	</control>
 	<control function="Change field of view">
 		<key>f10</key>
-	</control>
-	<control function="Display GUI">
-		<combo>
-			<key>left control</key>
-			<key>left shift</key>
-		</combo>
 	</control>
 	<control function="Show Cursor">
 		<key>left alt</key>
@@ -64,31 +64,13 @@
 	<control function="Continue Tutorial">
 		<key>space</key>
 	</control>
-	<control function="Toggle chat window on/off">
-		<key>enter</key>
-	</control>	
-	<control function="Toggle radio buffer on/off">
-		<combo>
-			<key>left alt</key>
-			<key>t</key>
-		</combo>
-	</control>	
 	<control function="Show in game map">
 		<key>m</key>
 	</control>
 	<control function="Screen shot">
 		<key>f9</key>
 	</control>
-	<control function="Exit game world">
-		<key>escape</key>
-	</control>
-	<control function="Roll view left">
-		<key>insert</key>
-	</control>	
-	<control function="Roll view right">
-		<key>page up</key>
-	</control>
-        <control function="Change HUD detail">
+	<control function="Change HUD detail">
 		<key>y</key>
 	</control>
 	<control function="Reset HUD">
@@ -96,6 +78,9 @@
 			<key>left control</key>
 			<key>y</key>
 		</combo>
+	</control>
+	<control function="Exit Game World">
+		<key>escape</key>
 	</control>
 	<control function="Show Game Info">
 		<key>num lock</key>
@@ -111,5 +96,51 @@
 	</control>
 	<control function="Change Chat height">
 		<key>tab</key>
+	</control>
+	<control function="Clone Vehicle">
+		<combo>
+			<key>left control</key>
+			<key>space</key>
+		</combo>
+	</control>
+	<control function="Forward/Backward">
+		<keyabsolute value="0.00" onrelease="50.00">
+			<key>s</key>
+		</keyabsolute>
+		<keyabsolute value="100.00" onrelease="50.00" index="10">
+			<key>w</key>
+		</keyabsolute>
+	</control>
+	<control function="Left/Right">
+		<keyabsolute value="0.00" onrelease="50.00">
+			<key>a</key>
+		</keyabsolute>
+		<keyabsolute value="100.00" onrelease="50.00" index="10">
+			<key>d</key>
+		</keyabsolute>
+	</control>
+	<control function="Primary Action">
+			<mousebutton>1</mousebutton>
+	</control>
+	<control function="Secondary Action">
+			<mousebutton>2</mousebutton>
+	</control>
+	<control function="Free Look ON">
+			<mousebutton>3</mousebutton>
+	</control>
+	<control function="Camera Look X">
+		<mouseaxis>x</mouseaxis>
+	</control>
+	<control function="Camera Look Y">
+		<mouseaxis>y</mouseaxis>
+	</control>
+	<control function="Next Position">
+			<mousebutton>wheelup</mousebutton>
+	</control>
+	<control function="Previous Position">
+			<mousebutton>wheeldown</mousebutton>
+	</control>
+	<control function="Engine">
+		<key>e</key>
 	</control>
 </controlset>
