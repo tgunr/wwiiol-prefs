@@ -1,165 +1,127 @@
-<controlset version = "1.0.0" keyboard = "us" language = "english" >
-	<control>
-		<function>instrument view</function>
-		<key>numpad 0</key>
-	</control>
-	<control>
-		<function>gunsight view</function>
-		<key>numpad .</key>
-	</control>
-	<control>
-		<function>deploy weapon</function>
-		<key>z</key>
-	</control>
-	<control>
-		<function>gunsight range decrease</function>
-		<key>page down</key>
-	</control>
-	<control>
-		<function>gunsight range increase</function>
-		<key>page up</key>
-	</control>
-	<control>
-		<function>determine range</function>
-		<key>g</key>
-	</control>	
-	<control>
-		<function>panel light</function>
-		<combo>
-			<key>left shift</key>
-			<key>n</key>
-		</combo>
-	</control>
-	<control>
-		<function>hatch control</function>
+<?xml version='1.0'?>
+<!DOCTYPE controlset SYSTEM "cfml.dtd">
+<controlset version="1.1.0" language="english" keyboard="us">
+	<control function="Hatch control">
 		<key>h</key>
 	</control>
-	<control>
-		<function>canopy control</function>
+	<control function="Canopy control">
 		<key>o</key>
 	</control>
-	<control>
-		<function>toggle tow bar</function>
+	<control function="Engine Start/Stop">
+		<key>e</key>
+	</control>
+	<control function="Deploy weapon">
+		<key>z</key>
+	</control>
+	<control function="Toggle tow bar">
 		<key>t</key>
 	</control>
-	<control>
-		<function>shift up</function>
+	<control function="Shift up">
 		<key>]</key>
 	</control>
-	<control>
-		<function>shift down</function>
+	<control function="Shift down">
 		<key>[</key>
 	</control>
-	<control>
-		<function>reverse</function>
+	<control function="Reverse">
 		<key>r</key>
 	</control>
-	<control>
-		<function>cycle ammo</function>
+	<control function="Ride Transport">
+		<key>j</key>
+	</control>
+	<control function="Instrument view">
+		<key>numpad 0</key>
+	</control>
+	<control function="Gunsight view">
+		<key>numpad .</key>
+	</control>
+	<control function="Cycle ammo">
 		<key>backspace</key>
 	</control>
-	<control>
-		<function>use primary weapon</function>
-		<joybutton stick="1">1</joybutton>
+	<control function="Determine Range">
+		<key>g</key>
 	</control>
-	<control>
-		<function>use secondary weapon</function>
-		<joybutton stick="1">2</joybutton>
-	</control>	
-	<control>
-		<function>gas</function>
-		<joyaxis stick="1" halfaxis="+">y</joyaxis>
+	<control function="Use primary weapon">
+		<key>f</key>
 	</control>
-	<control>
-		<function>steering</function>
-		<joyaxis stick="1">x</joyaxis>
+	<control function="Use secondary weapon">
+		<key>g</key>
 	</control>
-	<control>
-		<function>left track clutch</function>
-		<joyaxis stick="1" halfaxis="-">x</joyaxis>
+	<control function="Gunsight Range Decrease">
+		<key>page down</key>
 	</control>
-	<control>
-		<function>right track clutch</function>
-		<joyaxis stick="1" halfaxis="+">x</joyaxis>
+	<control function="Gunsight Range Increase">
+		<key>page up</key>
 	</control>
-	<control>
-		<function>left brake</function>
-		<joyaxis stick="1" halfaxis="-">x</joyaxis>
-	</control>	
-	<control>
-		<function>right brake</function>
-		<joyaxis stick="1" halfaxis="+">x</joyaxis>
-	</control>
-	<control>
-		<function>center brake</function>
-		<joyaxis stick="1" halfaxis="-">y</joyaxis>
-	</control>
-	<control>
-		<function>turret traverse</function>
-		<joyaxis stick="1">x</joyaxis>
-	</control>	
-	<control>
-		<function>turret elevate</function>
-		<joyaxis stick="1" invert="1">y</joyaxis>
-	</control>		
-	<control>
-		<function>position 1</function>
+	<control function="Position 1">
 		<key>1</key>
-	</control>			
-	<control>
-		<function>position 2</function>
+	</control>
+	<control function="Position 2">
 		<key>2</key>
-	</control>	
-	<control>
-		<function>position 3</function>
+	</control>
+	<control function="Position 3">
 		<key>3</key>
-	</control>	
-	<control>
-		<function>position 4</function>
+	</control>
+	<control function="Position 4">
 		<key>4</key>
-	</control>	
-	<control>
-		<function>position 5</function>
+	</control>
+	<control function="Position 5">
 		<key>5</key>
-	</control>	
-	<control>
-		<function>position 6</function>
+	</control>
+	<control function="Position 6">
 		<key>6</key>
-	</control>	
-	<control>
-		<function>position 7</function>
+	</control>
+	<control function="Position 7">
 		<key>7</key>
-	</control>	
-	<control>
-		<function>position 8</function>
+	</control>
+	<control function="Position 8">
 		<key>8</key>
-	</control>	
-	<control>
-		<function>position 9</function>
+	</control>
+	<control function="Position 9">
 		<key>9</key>
-	</control>	
-	<control>
-		<function>position 10</function>
+	</control>
+	<control function="Position 10">
 		<key>0</key>
 	</control>
-	<control>
-		<function>engine start/stop</function>
-		<key>e</key>
-	</control>	
-	<control function="hull gun elevate">
-		<keyabsolute value="0" onrelease="50" index="0">
+	<control function="Gas">
+		<joyaxis stick="1" halfaxis="+">y</joyaxis>
+		<joyaxis stick="1" index="1" halfaxis="+">y</joyaxis>
+	</control>
+	<control function="Left track clutch">
+		<joyaxis stick="1" halfaxis="-">x</joyaxis>
+		<joyaxis stick="1" index="1" halfaxis="-">x</joyaxis>
+	</control>
+	<control function="Right track clutch">
+		<joyaxis stick="1" halfaxis="+">x</joyaxis>
+		<joyaxis stick="1" index="1" halfaxis="+">x</joyaxis>
+	</control>
+	<control function="Left brake">
+		<joyaxis stick="1" halfaxis="-">x</joyaxis>
+		<joyaxis stick="1" index="1" halfaxis="-">x</joyaxis>
+	</control>
+	<control function="Right brake">
+		<joyaxis stick="1" halfaxis="+">x</joyaxis>
+		<joyaxis stick="1" index="1" halfaxis="+">x</joyaxis>
+	</control>
+	<control function="Center brake">
+		<joyaxis stick="1" halfaxis="-">y</joyaxis>
+		<joyaxis stick="1" index="1" halfaxis="-">y</joyaxis>
+	</control>
+	<control function="Steering">
+		<joyaxis stick="1">x</joyaxis>
+		<joyaxis stick="1" index="1">x</joyaxis>
+	</control>
+	<control function="Turret traverse">
+		<joyaxis stick="1">x</joyaxis>
+	</control>
+	<control function="Turret elevate">
+		<joyaxis stick="1" invert="1">y</joyaxis>
+	</control>
+	<control function="Hull Gun Elevate">
+		<keyabsolute value="0.00" onrelease="50.00">
 			<key>i</key>
 		</keyabsolute>
-		<keyabsolute value="100" onrelease="50" index="10">
+		<keyabsolute value="100.00" onrelease="50.00" index="10">
 			<key>k</key>
 		</keyabsolute>
 	</control>
-	<control>
-		<function>hoist</function>
-		<key>k</key>
-	</control>
-	<control>
-		<function>ride transport</function>
-		<key>j</key>
-	</control>	
 </controlset>
