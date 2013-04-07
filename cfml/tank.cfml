@@ -38,7 +38,7 @@
 		<key index="1"></key>
 	</control>
 	<control function="Use primary weapon">
-		<key>f</key>
+		<mousebutton>1</mousebutton>
 		<joybutton stick="1" index="1">1</joybutton>
 	</control>
 	<control function="Use secondary weapon">
