@@ -30,7 +30,7 @@
   <value name="app.radialdensity" type="float" value="1.000000"/>
   <value name="app.radialradius" type="float" value="1.000000"/>
   <value name="app.reflectionupdate" type="long" value="1"/>
-  <value name="app.resolution" type="string" value="2560x1600x32x0"/>
+  <value name="app.resolution" type="string" value="1920x1200x32x0"/>
   <value name="app.shadowreceivers" type="long" value="63"/>
   <value name="app.shadows" type="long" value="2"/>
   <value name="app.shadowsizeselect" type="long" value="6"/>
