@@ -5,7 +5,7 @@
 		<key index="1"></key>
 	</control>
 	<control function="Canopy control">
-		<key index="1"></key>
+		<joybutton stick="1" index="1">3</joybutton>
 	</control>
 	<control function="Engine Start/Stop">
 		<key>e</key>
@@ -15,13 +15,13 @@
 		<key index="1"></key>
 	</control>
 	<control function="Shift up">
-		<key index="1"></key>
+		<joybutton stick="1" index="1">19</joybutton>
 	</control>
 	<control function="Shift down">
-		<key index="1"></key>
+		<joybutton stick="1" index="1">21</joybutton>
 	</control>
 	<control function="Reverse">
-		<key index="1"></key>
+		<joybutton stick="1" index="1">6</joybutton>
 	</control>
 	<control function="Instrument view">
 		<key>,</key>
@@ -52,25 +52,25 @@
 		<joybutton stick="1" index="1">5</joybutton>
 	</control>
 	<control function="Position 1">
-		<key index="1"></key>
+		<joybutton stick="1" index="1">15</joybutton>
 	</control>
 	<control function="Position 2">
-		<key index="1"></key>
+		<joybutton stick="1" index="1">16</joybutton>
 	</control>
 	<control function="Position 3">
-		<key index="1"></key>
+		<joybutton stick="1" index="1">18</joybutton>
 	</control>
 	<control function="Position 4">
-		<key index="1"></key>
+		<joybutton stick="1" index="1">17</joybutton>
 	</control>
 	<control function="Gas">
 		<joyaxis stick="1" invert="1">slider1</joyaxis>
 	</control>
 	<control function="Steering">
-		<joyaxis stick="1">rz</joyaxis>
+		<joyaxis stick="1">x</joyaxis>
 	</control>
 	<control function="Turret traverse">
-		<joyaxis stick="1">rz</joyaxis>
+		<joyaxis stick="1">x</joyaxis>
 		<mouseaxis index="1">x</mouseaxis>
 		<keyabsolute value="0.00" onrelease="50.00">
 			<key>a</key>

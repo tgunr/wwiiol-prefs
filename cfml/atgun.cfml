@@ -9,10 +9,10 @@
 	</control>
 	<control function="Gunsight view">
 		<key>.</key>
-		<joybutton stick="1" index="1">5</joybutton>
+		<joybutton stick="1" index="1">2</joybutton>
 	</control>
 	<control function="Cycle ammo">
-		<joybutton stick="1">4</joybutton>
+		<key>backspace</key>
 		<joybutton stick="1" index="1">6</joybutton>
 	</control>
 	<control function="Use primary weapon">
