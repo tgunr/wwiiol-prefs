@@ -12,7 +12,7 @@
   <value name="app.corpsetime" type="float" value="0.200000"/>
   <value name="app.enableh2oshaders" type="bool" value="false"/>
   <value name="app.fontsize" type="long" value="11"/>
-  <value name="app.fsaasamples" type="long" value="0"/>
+  <value name="app.fsaasamples" type="long" value="8"/>
   <value name="app.grassshader" type="bool" value="false"/>
   <value name="app.hudvisible" type="long" value="2"/>
   <value name="app.iconmode" type="long" value="1"/>
