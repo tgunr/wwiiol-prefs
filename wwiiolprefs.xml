@@ -20,7 +20,7 @@
   <value name="app.iconmode" type="long" value="0"/>
   <value name="app.inflodmod" type="float" value="1.000000"/>
   <value name="app.language" type="long" value="0"/>
-  <value name="app.loadtime" type="long" value="17563"/>
+  <value name="app.loadtime" type="long" value="57210"/>
   <value name="app.macsound" type="long" value="0"/>
   <value name="app.musicmultiplier" type="float" value="0.000000"/>
   <value name="app.normalmaps" type="bool" value="true"/>
@@ -30,7 +30,7 @@
   <value name="app.radialdensity" type="float" value="1.000000"/>
   <value name="app.radialradius" type="float" value="1.000000"/>
   <value name="app.reflectionupdate" type="long" value="1"/>
-  <value name="app.resolution" type="string" value="2880x1800x32x0"/>
+  <value name="app.resolution" type="string" value="2560x1600x32x0"/>
   <value name="app.shadowreceivers" type="long" value="63"/>
   <value name="app.shadows" type="long" value="2"/>
   <value name="app.shadowsizeselect" type="long" value="6"/>
@@ -53,7 +53,7 @@
   <value name="hud.alerts.show" type="bool" value="true"/>
   <value name="hud.alerts.textmode" type="long" value="0"/>
   <value name="hud.minimap.mode" type="long" value="0"/>
-  <value name="hud.minimap.scale" type="float" value="0.476575"/>
+  <value name="hud.minimap.scale" type="float" value="0.029370"/>
   <value name="input.presets.0" type="long" value="0"/>
   <value name="input.presets.3" type="long" value="0"/>
   <value name="input.presets.5" type="long" value="0"/>

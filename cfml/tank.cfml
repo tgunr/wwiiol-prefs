@@ -32,18 +32,18 @@
 		<joybutton stick="1" index="1">2</joybutton>
 	</control>
 	<control function="Cycle ammo">
-		<joybutton stick="1" index="1">4</joybutton>
+		<joybutton stick="1" index="1">8</joybutton>
 	</control>
 	<control function="Determine Range">
 		<key index="1"></key>
 	</control>
 	<control function="Use primary weapon">
-		<mousebutton>1</mousebutton>
+		<key>f</key>
 		<joybutton stick="1" index="1">1</joybutton>
 	</control>
 	<control function="Use secondary weapon">
 		<key>v</key>
-		<joybutton stick="1" index="1">6</joybutton>
+		<joybutton stick="1" index="1">4</joybutton>
 	</control>
 	<control function="Gunsight Range Decrease">
 		<joybutton stick="1" index="1">3</joybutton>
@@ -66,11 +66,7 @@
 	<control function="Gas">
 		<joyaxis stick="1" invert="1">slider1</joyaxis>
 	</control>
-	<control function="Steering">
-		<joyaxis stick="1">x</joyaxis>
-	</control>
 	<control function="Turret traverse">
-		<joyaxis stick="1">x</joyaxis>
 		<mouseaxis index="1">x</mouseaxis>
 		<keyabsolute value="0.00" onrelease="50.00">
 			<key>a</key>
@@ -94,7 +90,6 @@
 		</keyabsolute>
 	</control>
 	<control function="Turret elevate">
-		<joyaxis stick="1" invert="1">y</joyaxis>
 		<mouseaxis index="1" invert="1">y</mouseaxis>
 		<keyabsolute value="0.00" onrelease="50.00">
 			<key>s</key>
@@ -118,7 +113,6 @@
 		</keyabsolute>
 	</control>
 	<control function="Hull Gun Traverse">
-		<joyaxis stick="1">x</joyaxis>
 		<keyabsolute value="0.00" onrelease="50.00">
 			<key>a</key>
 		</keyabsolute>
@@ -127,7 +121,6 @@
 		</keyabsolute>
 	</control>
 	<control function="Hull Gun Elevate">
-		<joyaxis stick="1">y</joyaxis>
 		<keyabsolute value="0.00" onrelease="50.00">
 			<key>s</key>
 		</keyabsolute>

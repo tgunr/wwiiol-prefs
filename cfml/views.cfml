@@ -5,7 +5,7 @@
 		<key></key>
 	</control>
 	<control function="Look Up">
-		<key></key>
+		<joybutton stick="1">7</joybutton>
 		<key index="1">space</key>
 	</control>
 	<control function="Look Down">
