@@ -8,7 +8,7 @@
 		<key index="1"></key>
 	</control>
 	<control function="Look Up">
-		<key></key>
+		<key>space</key>
 		<joybutton stick="1" index="1">7</joybutton>
 	</control>
 	<control function="Look Down">

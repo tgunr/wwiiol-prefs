@@ -95,7 +95,13 @@
 		</keydelta>
 	</control>
 	<control function="Flap control">
-		<joyaxis stick="1">rx</joyaxis>
+		<joyaxis stick="0"></joyaxis>
+		<keyabsolute value="0.00">
+			<key>9</key>
+		</keyabsolute>
+		<keyabsolute value="100.00" index="10">
+			<key>0</key>
+		</keyabsolute>
 	</control>
 	<control function="Turret traverse">
 		<joyaxis stick="1">x</joyaxis>
@@ -106,19 +112,19 @@
 	<control function="Elevator trim">
 		<joyaxis stick="0"></joyaxis>
 		<keydelta value="1.00" per="keypress">
-			<key>numpad 2</key>
+			<key>k</key>
 		</keydelta>
 		<keydelta value="-1.00" per="keypress" index="1">
-			<key>numpad 8</key>
+			<key>i</key>
 		</keydelta>
 	</control>
 	<control function="Aileron trim">
 		<joyaxis stick="1">x</joyaxis>
 		<keydelta value="1.00" per="keypress">
-			<key>numpad 6</key>
+			<key>j</key>
 		</keydelta>
 		<keydelta value="-1.00" per="keypress" index="1">
-			<key>numpad 4</key>
+			<key>l</key>
 		</keydelta>
 	</control>
 	<control function="Rudder trim">

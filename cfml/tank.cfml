@@ -29,7 +29,7 @@
 		<joybutton stick="1" index="1">2</joybutton>
 	</control>
 	<control function="Cycle ammo">
-		<joybutton stick="1" index="1">8</joybutton>
+		<joybutton stick="1" index="1">4</joybutton>
 	</control>
 	<control function="Determine Range">
 		<key index="1"></key>
@@ -38,12 +38,14 @@
 		<joybutton stick="1">1</joybutton>
 	</control>
 	<control function="Use secondary weapon">
-		<joybutton stick="1">4</joybutton>
+		<joybutton stick="1">6</joybutton>
 	</control>
 	<control function="Gunsight Range Decrease">
+		<key>down arrow</key>
 		<key index="1"></key>
 	</control>
 	<control function="Gunsight Range Increase">
+		<key>up arrow</key>
 		<key index="1"></key>
 	</control>
 	<control function="Position 1">

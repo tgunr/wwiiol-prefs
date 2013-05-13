@@ -18,7 +18,7 @@
   <value name="app.iconmode" type="long" value="1"/>
   <value name="app.inflodmod" type="float" value="4.000000"/>
   <value name="app.language" type="long" value="0"/>
-  <value name="app.loadtime" type="long" value="7391"/>
+  <value name="app.loadtime" type="long" value="17019"/>
   <value name="app.macsound" type="long" value="0"/>
   <value name="app.musicmultiplier" type="float" value="0.000000"/>
   <value name="app.postrenderfilter" type="bool" value="false"/>
@@ -37,7 +37,7 @@
   <value name="app.suppressmuzzlelight" type="bool" value="true"/>
   <value name="app.usenetworkroute" type="long" value="0"/>
   <value name="app.version" type="long" value="12"/>
-  <value name="app.video" type="string" value="1"/>
+  <value name="app.video" type="string" value="2"/>
   <value name="app.visplayerlimit" type="long" value="1"/>
   <value name="app.volumemultiplier" type="float" value="0.056314"/>
   <value name="app.wantbloodeffects" type="bool" value="false"/>
@@ -47,12 +47,13 @@
   <value name="convergence.16929" type="long" value="500"/>
   <value name="convergence.16964" type="long" value="500"/>
   <value name="convergence.16965" type="long" value="500"/>
+  <value name="convergence.4678" type="long" value="500"/>
   <value name="convergence.4679" type="long" value="500"/>
   <value name="convergence.4681" type="long" value="500"/>
   <value name="hud.alerts.show" type="bool" value="true"/>
   <value name="hud.alerts.textmode" type="long" value="0"/>
   <value name="hud.minimap.mode" type="long" value="0"/>
-  <value name="hud.minimap.scale" type="float" value="0.214158"/>
+  <value name="hud.minimap.scale" type="float" value="0.314313"/>
   <value name="input.presets.0" type="long" value="0"/>
   <value name="input.presets.3" type="long" value="0"/>
   <value name="quickhelp-brigade" type="bool" value="true"/>
