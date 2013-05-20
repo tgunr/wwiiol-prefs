@@ -2,10 +2,10 @@
 <!DOCTYPE controlset SYSTEM "cfml.dtd">
 <controlset version="1.1.0" language="english" keyboard="us">
 	<control function="Gear handle">
-		<key index="1"></key>
+		<joybutton stick="1" index="1">6</joybutton>
 	</control>
 	<control function="Deploy dive brakes">
-		<joybutton stick="1" index="1">5</joybutton>
+		<joybutton stick="1" index="1">6</joybutton>
 	</control>
 	<control function="Deploy weapon">
 		<key index="1"></key>
@@ -149,7 +149,7 @@
 	</control>
 	<control function="Stuka siren">
 		<key>caps lock</key>
-		<joybutton stick="1" index="1">5</joybutton>
+		<joybutton stick="1" index="1">6</joybutton>
 	</control>
 	<control function="Adjust prop up">
 		<combo index="1">
