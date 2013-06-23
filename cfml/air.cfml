@@ -2,10 +2,10 @@
 <!DOCTYPE controlset SYSTEM "cfml.dtd">
 <controlset version="1.1.0" language="english" keyboard="us">
 	<control function="Gear handle">
-		<joybutton stick="1" index="1">6</joybutton>
+		<joybutton stick="2" index="1">31</joybutton>
 	</control>
 	<control function="Deploy dive brakes">
-		<joybutton stick="1" index="1">6</joybutton>
+		<joybutton stick="2" index="1">31</joybutton>
 	</control>
 	<control function="Deploy weapon">
 		<key index="1"></key>
@@ -15,7 +15,7 @@
 	</control>
 	<control function="Autopilot">
 		<key>a</key>
-		<key index="1"></key>
+		<joybutton stick="2" index="1">8</joybutton>
 	</control>
 	<control function="Instrument view">
 		<key>,</key>
@@ -86,7 +86,7 @@
 		</keyabsolute>
 	</control>
 	<control function="Yaw">
-		<joyaxis stick="1">rz</joyaxis>
+		<joyaxis stick="2">ry</joyaxis>
 		<keyabsolute value="0.00">
 			<key></key>
 		</keyabsolute>
@@ -95,7 +95,7 @@
 		</keyabsolute>
 	</control>
 	<control function="Throttle">
-		<joyaxis stick="1" invert="1">slider1</joyaxis>
+		<joyaxis stick="2">z</joyaxis>
 		<keydelta value="0.00" per="sec" index="2">
 			<key></key>
 		</keydelta>
@@ -104,7 +104,7 @@
 		</keydelta>
 	</control>
 	<control function="Flap control">
-		<joyaxis stick="1">rx</joyaxis>
+		<joyaxis stick="2" invert="1">slider1</joyaxis>
 		<keyabsolute value="0.00">
 			<key>[</key>
 		</keyabsolute>
@@ -119,48 +119,40 @@
 		<joyaxis stick="1" invert="1">y</joyaxis>
 	</control>
 	<control function="Elevator trim">
-		<joyaxis stick="0"></joyaxis>
-		<keydelta value="1.00" per="keypress">
-			<joybutton stick="1">19</joybutton>
+		<joyaxis stick="2" invert="1">rx</joyaxis>
+		<keydelta value="0.00" per="sec">
+			<key></key>
 		</keydelta>
-		<keydelta value="-1.00" per="keypress" index="1">
-			<joybutton stick="1">21</joybutton>
+		<keydelta value="0.00" per="sec" index="1">
+			<key></key>
 		</keydelta>
 	</control>
 	<control function="Aileron trim">
 		<joyaxis stick="0"></joyaxis>
-		<keydelta value="1.00" per="keypress">
-			<joybutton stick="1">20</joybutton>
+		<keydelta value="0.00" per="sec">
+			<key></key>
 		</keydelta>
-		<keydelta value="-1.00" per="keypress" index="1">
-			<joybutton stick="1">22</joybutton>
+		<keydelta value="0.00" per="sec" index="1">
+			<key></key>
 		</keydelta>
 	</control>
 	<control function="Rudder trim">
 		<joyaxis stick="0"></joyaxis>
-		<keydelta value="1.00" per="keypress">
-			<joybutton stick="1">6</joybutton>
-			<joybutton stick="1">20</joybutton>
+		<keydelta value="0.00" per="sec">
+			<key></key>
 		</keydelta>
-		<keydelta value="-1.00" per="keypress" index="1">
-			<joybutton stick="1">6</joybutton>
-			<joybutton stick="1">22</joybutton>
+		<keydelta value="0.00" per="sec" index="1">
+			<key></key>
 		</keydelta>
 	</control>
 	<control function="Stuka siren">
 		<key>caps lock</key>
-		<joybutton stick="1" index="1">6</joybutton>
+		<joybutton stick="2" index="1">31</joybutton>
 	</control>
 	<control function="Adjust prop up">
-		<combo index="1">
-			<joybutton stick="1">6</joybutton>
-			<joybutton stick="1">19</joybutton>
-		</combo>
+		<key index="1"></key>
 	</control>
 	<control function="Adjust prop down">
-		<combo index="1">
-			<joybutton stick="1">6</joybutton>
-			<joybutton stick="1">21</joybutton>
-		</combo>
+		<key index="1"></key>
 	</control>
 </controlset>

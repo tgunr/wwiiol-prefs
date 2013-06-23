@@ -2,10 +2,11 @@
 <!DOCTYPE controlset SYSTEM "cfml.dtd">
 <controlset version="1.1.0" language="english" keyboard="us">
 	<control function="Deploy weapon">
-		<joybutton stick="1" index="1">10</joybutton>
+		<joybutton stick="1" index="1">6</joybutton>
 	</control>
 	<control function="Instrument view">
 		<key>,</key>
+		<joybutton stick="1" index="1">3</joybutton>
 	</control>
 	<control function="Gunsight view">
 		<key>.</key>
@@ -13,7 +14,7 @@
 	</control>
 	<control function="Cycle ammo">
 		<key>backspace</key>
-		<joybutton stick="1" index="1">6</joybutton>
+		<joybutton stick="1" index="1">8</joybutton>
 	</control>
 	<control function="Use primary weapon">
 		<joybutton stick="1">1</joybutton>
@@ -28,10 +29,10 @@
 		<joybutton stick="1" index="1">8</joybutton>
 	</control>
 	<control function="Position 1">
-		<joybutton stick="1" index="1">5</joybutton>
+		<joybutton stick="1" index="1">15</joybutton>
 	</control>
 	<control function="Position 2">
-		<joybutton stick="1" index="1">3</joybutton>
+		<joybutton stick="1" index="1">16</joybutton>
 	</control>
 	<control function="Turret traverse">
 		<joyaxis stick="1">x</joyaxis>

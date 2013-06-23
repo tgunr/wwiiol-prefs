@@ -12,6 +12,9 @@
 	<control function="Toggle Free Look">
 		<key index="1"></key>
 	</control>
+	<control function="Mouse Look Z">
+		<joyaxis stick="0"></joyaxis>
+	</control>
 	<control function="Sprint">
 		<combo index="1">
 			<key>left shift</key>
@@ -48,6 +51,9 @@
 	<control function="Gunsight\Alt Deploy">
 		<key>x</key>
 		<mousebutton index="1">2</mousebutton>
+	</control>
+	<control function="Walk">
+		<key></key>
 	</control>
 	<control function="Select Next Weapon">
 		<key index="1"></key>

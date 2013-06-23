@@ -15,13 +15,13 @@
 		<key index="1"></key>
 	</control>
 	<control function="Shift up">
-		<joybutton stick="1" index="1">19</joybutton>
+		<joybutton stick="2" index="1">20</joybutton>
 	</control>
 	<control function="Shift down">
-		<joybutton stick="1" index="1">21</joybutton>
+		<joybutton stick="2" index="1">22</joybutton>
 	</control>
 	<control function="Reverse">
-		<joybutton stick="1" index="1">6</joybutton>
+		<joybutton stick="2" index="1">31</joybutton>
 	</control>
 	<control function="Instrument view">
 		<key>,</key>
@@ -64,7 +64,7 @@
 		<joybutton stick="1" index="1">17</joybutton>
 	</control>
 	<control function="Gas">
-		<joyaxis stick="1" invert="1">slider1</joyaxis>
+		<joyaxis stick="2">z</joyaxis>
 	</control>
 	<control function="Turret traverse">
 		<mouseaxis index="1">x</mouseaxis>
