@@ -2,7 +2,7 @@
 <!DOCTYPE controlset SYSTEM "cfml.dtd">
 <controlset version="1.1.0" language="english" keyboard="us">
 	<control function="Deploy weapon">
-		<joybutton stick="1" index="1">6</joybutton>
+		<joybutton stick="2" index="1">31</joybutton>
 	</control>
 	<control function="Instrument view">
 		<key>,</key>
@@ -23,10 +23,10 @@
 		<joybutton stick="1">6</joybutton>
 	</control>
 	<control function="Gunsight Range Decrease">
-		<joybutton stick="1" index="1">7</joybutton>
+		<joybutton stick="2" index="1">22</joybutton>
 	</control>
 	<control function="Gunsight Range Increase">
-		<joybutton stick="1" index="1">8</joybutton>
+		<joybutton stick="2" index="1">20</joybutton>
 	</control>
 	<control function="Position 1">
 		<joybutton stick="1" index="1">15</joybutton>
@@ -44,6 +44,6 @@
 		<joyaxis stick="1">x</joyaxis>
 	</control>
 	<control function="AT Gun Move">
-		<joyaxis stick="1" invert="1">slider1</joyaxis>
+		<joyaxis stick="2">z</joyaxis>
 	</control>
 </controlset>

@@ -86,7 +86,7 @@
 		</keyabsolute>
 	</control>
 	<control function="Yaw">
-		<joyaxis stick="2">ry</joyaxis>
+		<joyaxis stick="2" invert="1">ry</joyaxis>
 		<keyabsolute value="0.00">
 			<key></key>
 		</keyabsolute>

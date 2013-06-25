@@ -46,10 +46,10 @@
 		<joybutton stick="1" index="1">4</joybutton>
 	</control>
 	<control function="Gunsight Range Decrease">
-		<joybutton stick="1" index="1">3</joybutton>
+		<joybutton stick="2" index="1">22</joybutton>
 	</control>
 	<control function="Gunsight Range Increase">
-		<joybutton stick="1" index="1">5</joybutton>
+		<joybutton stick="2" index="1">20</joybutton>
 	</control>
 	<control function="Position 1">
 		<joybutton stick="1" index="1">15</joybutton>

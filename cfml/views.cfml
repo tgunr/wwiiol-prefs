@@ -10,7 +10,6 @@
 	</control>
 	<control function="Look Down">
 		<key></key>
-		<joybutton stick="1" index="1">POV1s</joybutton>
 	</control>
 	<control function="Look Forward + Right">
 		<key></key>
@@ -29,9 +28,6 @@
 	</control>
 	<control function="Look Back + Left">
 		<key></key>
-	</control>
-	<control function="Look Forward + Up">
-		<joybutton stick="1" index="1">POV1n</joybutton>
 	</control>
 	<control function="Toggle Free Look">
 		<mousebutton index="1">3</mousebutton>
